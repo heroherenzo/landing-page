@@ -35,3 +35,42 @@
 	width: 600px;
 	height: 200px;
 }
+
+/*THIS IS THE CONTENT - MAIN*/
+#main {
+	display: flex;
+	flex-direction: column;
+}
+
+#main h2 {
+	text-align: center;
+}
+
+#chicken-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 3%;
+}
+
+.chicken-breeds-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.chicken-breeds-container p {
+	text-align: center;
+	max-width: 200px;
+}
+
+.chicken-breeds {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+
+/*My attempt on psuedo class to target an element*/
+.chicken-breeds-container:nth-of-type(2) img {
+	object-position: right;
+}
