@@ -5,31 +5,40 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>The Cluck</title>
 		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="images/chicken-logo.webp" type="image/x-icon" />
 	</head>
 	<body>
 		<!--Header-->
-		<header id="header">
+		<header class="header blue">
 			<!--Navigation-->
 			<nav id="navigation">
-				<img id="logo-image" src="images/chicken-logo.webp" alt="website chicken logo" />
+				<div id="logo-container">
+					<img id="logo-image" src="images/chicken-logo.webp" alt="website chicken logo" />
+					<p id="logo-name">The Cluck</p>
+				</div>
 				<ul id="nav-list">
-					<li>header link one</li>
-					<li>header link two</li>
-					<li>header link three</li>
+					<li><a href="#">Buck</a></li>
+					<div class="egg"></div>
+					<li><a href="#">Cluck</a></li>
+					<div class="egg"></div>
+					<li><a href="#">Bughawk</a></li>
 				</ul>
 			</nav>
 
+			<hr />
+
 			<!--Hero-->
-			<div id="hero">
-				<section id="hero-section">
+			<header id="hero">
+				<div id="hero-div">
 					<h1>Welcome to chicken website!</h1>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore nam exercitationem ratione quis.
+						I'm not an eggs-pert at this so please don't eggs-pect an eggs-elent output. I fried my best to add
+						some humor but obviously I'm not a comed-hen. Best of cluck to me, I guess.
 					</p>
 					<button>Sign Up</button>
-				</section>
+				</div>
 				<img id="chicken-image" src="images/regular-chicken.jpg" alt="regular chicken image" />
-			</div>
+			</header>
 		</header>
 
 		<!--Content-->
@@ -41,24 +50,21 @@
 				<div class="chicken-breeds-container">
 					<img class="chicken-breeds" src="images/silkie-chicken.jpg" alt="silkie chicken" loading="lazy" />
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iure, molestiae, fugit eius fuga ex
-						esse id dolorem.
+						A popular breed of show chicken, the <em>Silkie Chicken</em>. Not to be confused with a feather duster.
+						Trust me.
 					</p>
 				</div>
 				<!--Chicken 2-->
 				<div class="chicken-breeds-container">
 					<img class="chicken-breeds" src="images/frizzle-chicken.jpg" alt="frizzle chicken" loading="lazy" />
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iure, molestiae, fugit eius fuga ex
-						esse id dolorem.
-					</p>
+					<p>The <em>Frizzle Chicken</em>. Who are they even trying to fool looking like a pinecone?</p>
 				</div>
 				<!--Chicken 3-->
 				<div class="chicken-breeds-container">
 					<img class="chicken-breeds" src="images/polish-chicken.jpg" alt="polish chicken" loading="lazy" />
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iure, molestiae, fugit eius fuga ex
-						esse id dolorem.
+						The <em>Polish Chicken</em> are always ready for Mardi Gras. Unfortunately, they don't speak Polish.
+						It'd be funny if they did.
 					</p>
 				</div>
 				<!--Chicken 4-->
@@ -69,18 +75,17 @@
 						alt="person eating fried chicken"
 						loading="lazy" />
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iure, molestiae, fugit eius fuga ex
-						esse id dolorem.
+						This is a person eating a <em>fried chicken</em>. No, the person is not a type of chicken... I think.
 					</p>
 				</div>
 			</section>
 
 			<!--Blockquote-->
 			<blockquote class="blockquote">
-				<p>
+				<q>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis tempora unde labore id, ullam
 					ipsum est repudiandae?
-				</p>
+				</q>
 			</blockquote>
 
 			<!--Action Button-->
@@ -92,6 +97,6 @@
 				<button>Sign up</button>
 			</section>
 		</main>
-		<footer>Copyright © The Odin Project 2023</footer>
+		<footer class="footer blue">Copyright © The Cluck 2023</footer>
 	</body>
 </html>
