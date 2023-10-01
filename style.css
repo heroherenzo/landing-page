@@ -13,6 +13,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -90,7 +94,7 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 5vh auto;
+	margin: 10vh auto;
 	gap: 3rem;
 }
 
@@ -134,7 +138,7 @@ hr {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	gap: 5vw;
+	gap: 3vw;
 }
 
 .chicken-breeds-container {
@@ -144,16 +148,17 @@ hr {
 
 .chicken-breeds-container p {
 	text-align: center;
-	max-width: 150px;
+	max-width: 200px;
 }
 
 .chicken-breeds {
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
 	object-position: center;
 	border: 0.2rem solid var(--turquoise);
 	border-radius: 12%;
+	margin-bottom: 1vh;
 }
 
 /*My attempt on psuedo class to target an element*/
@@ -189,5 +194,7 @@ hr {
 	text-align: right;
 	margin: 2%;
 }
+
+/*CALL SECTION OR WHATEVER YOU CALL IT*/
 
 /*THIS IS THE FOOTER*/
