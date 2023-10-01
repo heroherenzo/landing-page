@@ -96,7 +96,6 @@ hr {
 
 #hero-div {
 	width: 50%;
-	min-height: 20vh;
 }
 
 #hero-div h1 {
@@ -111,28 +110,31 @@ hr {
 }
 
 #chicken-image {
-	width: 50%;
-	height: auto;
+	min-width: 50%;
+	max-height: 40vh;
 	object-fit: cover;
-	border-radius: 1% 25%;
-	border: 0.1rem solid var(--beige);
+	border-radius: 1%;
 }
 
 /*THIS IS THE CONTENT - MAIN*/
 #main {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	padding: 6vh 15vw;
 }
 
 #main h2 {
 	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 5vh;
 }
 
 #chicken-container {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	gap: 3%;
+	gap: 5vw;
 }
 
 .chicken-breeds-container {
@@ -150,6 +152,8 @@ hr {
 	height: 150px;
 	object-fit: cover;
 	object-position: center;
+	border: 0.2rem solid var(--turquoise);
+	border-radius: 12%;
 }
 
 /*My attempt on psuedo class to target an element*/
@@ -166,6 +170,24 @@ hr {
 	font-weight: 700;
 	/*it irritates me without the cursor on hover*/
 	cursor: pointer;
+}
+
+/*BLOCKQUOTE*/
+.blockquote {
+	padding: 10vh 30vw;
+	background-color: var(--green);
+}
+
+.blockquote q {
+	font-size: 3.1rem;
+	font-weight: 100;
+}
+
+.blockquote p {
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: right;
+	margin: 2%;
 }
 
 /*THIS IS THE FOOTER*/
